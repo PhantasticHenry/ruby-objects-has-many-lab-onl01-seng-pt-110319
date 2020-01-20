@@ -16,7 +16,7 @@ class Song
     @@all
   end
   
-  ## knows the anme of it's artist
+  ## knows the name of it's artist
   def artist_name
     if self.artist 
       self.artist.name
